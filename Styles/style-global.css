@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('ruta/a/tu/instrument-sans-regular.woff2') format('woff2'),
+    url('ruta/a/tu/instrument-sans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: var(--alto_header) var(--alto_main) var(--alto_footer);
+    background-color: var(--fondo_main);
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+footer{
+    display: grid;
+    grid-template-columns: var(--anchos_grids) 50vw var(--anchos_grids);
+    grid-template-rows: var(--altos_footer);
+    background-color: var(--fondo_footer);
+    grid-template-areas: "footer-1 footer-2 footer-3";
+}

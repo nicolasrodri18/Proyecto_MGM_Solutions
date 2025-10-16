@@ -1,0 +1,71 @@
+@import url(components/boton.css);
+@import url(components/logo.css);
+
+.encabezado{
+    grid-area: header;
+    height: var(--alto_header);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.encabezado__Logo{
+    height: var(--alto_Logo);
+    width: var(--ancho_Logo);
+}
+
+.cuerpo{
+    height: var(--alto_main);
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.cuerpo__contenido{
+    text-align: center;
+    font-family: var(--tipo_letra);
+    font-weight: var(--estilo_letra);
+    font-size: 32px;
+}
+
+.pie-pagina{
+    grid-area: footer;
+    height: var(--alto_footer);
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina__contenido-1{
+    grid-area: footer-1;
+    height: var(--alto_pie-pagina__contenido);
+    margin-left: 10%;
+    color: var(--textos_contenidos);
+    border-right:5px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.pie-pagina__contenido-1--texto{
+    font-size: 15px;
+    font-family: var(--tipo_letra);
+    font-weight: var(--estilo_letra);
+
+}
+.pie-pagina__contenido-2{
+    grid-area: footer-2;
+    height: var(--alto_pie-pagina__contenido);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 45vw;
+    background-color: blue;
+}
+
+.pie-pagina__contenido-3{
+    grid-area: footer-3;
+    height: var(--alto_pie-pagina__contenido);
+    background-color: green;
+}

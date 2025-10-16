@@ -1,0 +1,18 @@
+:root{
+    --fondo_main:#DFDFDF;
+    --alto_header: 250px;
+    --alto_footer: 200px;
+    --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header)));
+    --fondo_footer: black;
+    --anchos_grids: 25vw;
+    --alto_Logo: 173px;
+    --ancho_Logo: 258px;
+    --anchos_boton: 20px;
+    --altos_boton: 15px;
+    --fondo_boton: black;
+    --textos_contenidos: white;
+    --fondo_boton-hover: rgb(71, 71, 71);
+    --alto_pie-pagina__contenido: 80%;
+    --tipo_letra: 'Instrument Sans', sans-serif;
+    --estilo_letra: lighter;
+}

@@ -1,0 +1,6 @@
+@import url(coustom_properties-componentes.css);
+
+.logo{
+    height: var(--alto_Logo);
+    width: var(--ancho_Logo);
+}
