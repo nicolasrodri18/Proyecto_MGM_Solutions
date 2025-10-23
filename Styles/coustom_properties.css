@@ -15,4 +15,11 @@
     --alto_pie-pagina__contenido: 80%;
     --tipo_letra: 'Instrument Sans', sans-serif;
     --estilo_letra: lighter;
+    --ancho_Logo_footer: 108px;
+    --alto_Logo_footer: 59px;
+    --linea_division_footer: 5px;
+    --alto_logos_redes: 22px;
+    --ancho_logos_redes: 22px;
+    --textos_redes: 10px;
+    --textos_footer: 15px;
 }

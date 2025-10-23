@@ -1,4 +1,4 @@
-@import url(coustom_properties-componentes.css);
+@import url(coustom_properties.css);
 
 .logo{
     height: var(--alto_Logo);
