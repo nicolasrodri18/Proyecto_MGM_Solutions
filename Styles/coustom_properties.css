@@ -1,6 +1,6 @@
 :root{
     --fondo_main:#DFDFDF;
-    --alto_header: 250px;
+    --alto_header: 200px;
     --alto_footer: 200px;
     --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header)));
     --fondo_footer: black;
@@ -22,4 +22,8 @@
     --ancho_logos_redes: 22px;
     --textos_redes: 10px;
     --textos_footer: 15px;
+    --ancho-campo_form: 393px;
+    --alto-campo_form: 34px;
+    --alto__check-in: 346px;
+    --ancho__check-in: 339px;
 }

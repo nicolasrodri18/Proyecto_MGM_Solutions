@@ -1,0 +1,6 @@
+@import url(coustom_properties.css);
+
+.exito__icono{
+    width: var(--alto__check-in);
+    height: var(--ancho__check-in);
+}
