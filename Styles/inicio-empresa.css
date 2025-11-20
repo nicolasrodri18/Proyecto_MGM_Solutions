@@ -2,7 +2,7 @@
 @import url(components/pie_pagina.css);
 @import url(components/navbar.css);
 @import url(components/logo-navegacion.css);
-
+@import url(components/icon-perfil.css);
 
 .cuerpo{
     height: var(--alto_main-navegacion);
@@ -19,4 +19,6 @@
     font-family: var(--tipo_letra);
     font-weight: var(--estilo_letra);
     font-size: 32px;
+    font-weight: bold;
+    gap: 20px;
 }

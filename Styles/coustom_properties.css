@@ -1,5 +1,5 @@
 :root{
-    --fondo_main:#DFDFDF;
+    --fondo_main:#ffffff;
 
     /* parametros grid-inicio */
     --alto_header-inicio: 200px;
@@ -47,5 +47,6 @@
     --navbar__perfil: 346px;
     --navbar__logo: 318px;
     --navbar__navegacion--links: calc(100% - (var(--navbar__perfil) + var(--navbar__logo)));
-
+    --alto-icon__perfil: 59px;
+    --ancho-icon__perfil: 61px;
 }
