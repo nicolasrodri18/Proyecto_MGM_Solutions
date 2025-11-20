@@ -1,8 +1,8 @@
 :root{
     --fondo_main:#DFDFDF;
-    --alto_header: 200px;
-    --alto_footer: 200px;
-    --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header)));
+    --alto_header-inicio: 200px;
+    --alto_footer-inicio: 200px;
+    --alto_main-inicio: calc(100vh - (var(--alto_footer-inicio) + var(--alto_header-inicio)));
     --fondo_footer: black;
     --anchos_grids: 25vw;
     --alto_Logo: 173px;

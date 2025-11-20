@@ -14,7 +14,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: var(--alto_header) var(--alto_main) var(--alto_footer);
+    grid-template-rows: var(--alto_header-inicio) var(--alto_main-inicio) var(--alto_footer-inicio);
     background-color: var(--fondo_main);
     grid-template-areas:
     "header header header"
