@@ -6,7 +6,7 @@
 @import url(components/encabezado_pagina_inicio.css);
 /* main */
 .cuerpo{
-    height: var(--alto_main);
+    height: var(--alto_main-inicio);
     grid-area: main;
     display: flex;
     align-items: center;

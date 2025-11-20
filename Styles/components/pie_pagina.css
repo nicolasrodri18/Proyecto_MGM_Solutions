@@ -1,8 +1,10 @@
 @import url(coustom_properties.css);
+@import url(components/logo_footer.css);
+@import url(components/logos_redes.css);
 
 .pie-pagina{
     grid-area: footer;
-    height: var(--alto_footer);
+    height: var(--alto_footer-inicio);
     justify-content: center;
     align-items: center;
 }

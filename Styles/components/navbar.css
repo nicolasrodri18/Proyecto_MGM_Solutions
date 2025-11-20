@@ -1,0 +1,33 @@
+@import url(coustom_properties.css);
+@import url(components/logo-navegacion.css);
+.navbar{
+    grid-area: header;
+    height: var(--alto_header-navegacion);
+    display: grid;
+    grid-template-columns: var(--navbar__perfil) var(--navbar__navegacion--links) var(--navbar__logo);
+    align-items: center;
+    justify-content: center;
+    background-color: #c2c1c1;
+    grid-template-areas: "perfil navegacion logo";
+}
+
+.navbar__perfil{
+    grid-area: perfil;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__navegacion--links{
+    grid-area: navegacion;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar__logo{
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

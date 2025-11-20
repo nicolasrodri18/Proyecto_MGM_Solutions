@@ -1,9 +1,11 @@
 @import url(coustom_properties.css);
+@import url(components/logo.css);
+
 .encabezado{
     grid-area: header;
-    height: var(--alto_header);
+    height: var(--alto_header-inicio);
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
 }
 

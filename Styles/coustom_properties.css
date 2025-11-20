@@ -1,13 +1,19 @@
 :root{
     --fondo_main:#DFDFDF;
+
+    /* parametros grid-inicio */
     --alto_header-inicio: 200px;
     --alto_footer-inicio: 200px;
     --alto_main-inicio: calc(100vh - (var(--alto_footer-inicio) + var(--alto_header-inicio)));
-    --fondo_footer: black;
-    --anchos_grids: 25vw;
+
+    /* tamaños componentes encabezado */
     --alto_Logo: 173px;
     --ancho_Logo: 258px;
     --anchos_boton: 20px;
+
+    /* tamaños componentes footer */
+    --fondo_footer: black;
+    --anchos_grids: 25vw;
     --altos_boton: 15px;
     --fondo_boton: black;
     --textos_contenidos: white;
@@ -27,4 +33,19 @@
     --alto__check-in: 346px;
     --ancho__check-in: 339px;
     --fondo__campo_form: rgb(191, 191, 192);
+
+    /* parametros grid-navegacion */
+    --alto_header-navegacion: 150px;
+    --alto_footer-navegacion: 200px;
+    --alto_main-navegacion: calc(100vh - (var(--alto_footer-navegacion) + var(--alto_header-navegacion)));
+
+    /* parametros navbar */
+    --alto_logo--navbar: 100px;
+    --ancho_logo--navbar: 177px;
+    
+    /* parametros grid navbar */
+    --navbar__perfil: 346px;
+    --navbar__logo: 318px;
+    --navbar__navegacion--links: calc(100% - (var(--navbar__perfil) + var(--navbar__logo)));
+
 }

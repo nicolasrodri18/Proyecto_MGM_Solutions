@@ -1,12 +1,11 @@
 @import url(components/boton.css);
-@import url(components/logo.css);
-@import url(components/logo_footer.css);
-@import url(components/logos_redes.css);
 @import url(components/pie_pagina.css);
-@import url(components/encabezado_pagina_inicio.css);
+@import url(components/navbar.css);
+@import url(components/logo-navegacion.css);
+
 
 .cuerpo{
-    height: var(--alto_main-inicio);
+    height: var(--alto_main-navegacion);
     grid-area: main;
     display: flex;
     align-items: center;

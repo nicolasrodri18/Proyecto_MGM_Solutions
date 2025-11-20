@@ -1,6 +1,5 @@
 @import url(components/pie_pagina.css);
 @import url(components/encabezado_pagina_inicio.css);
-
 .seleccion-rol{
     display: flex;
     flex-direction: column;
@@ -10,9 +9,9 @@
     width: 599px;
     height: 516px;
     border-radius: 119px;
-    padding-top: 50px;
+    margin-bottom: 50px;
 }
-.texto{
+.cuerpo__contenido--texto{
     font-family: var(--tipo_letra);
     font-weight: var(--estilo_letra);
     font-size: 96px;
