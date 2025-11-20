@@ -107,31 +107,6 @@
     align-items: center;
 }
 
-/* controladores-checkbox check-in confirmado */
-/* #toggle-exito__empresa:checked ~ .cuerpo__menu-inicio,
-#toggle-exito__empresa:checked ~ .cuerpo__menu-registro-empresa,
-#toggle-exito__empresa:checked ~ .cuerpo__menu-registro-usuario,
-#toggle-exito__empresa:checked ~ #toggle-registro__empresa,
-#toggle-exito__empresa:checked ~ #toggle-registro__usuario {
-    display: none;
-}
-
-#toggle-exito__empresa:checked ~ .cuerpo__menu-exito-empresa {
-    display: flex;
-}
-
-#toggle-exito__usuario:checked ~ .cuerpo__menu-inicio,
-#toggle-exito__usuario:checked ~ .cuerpo__menu-registro-empresa,
-#toggle-exito__usuario:checked ~ .cuerpo__menu-registro-usuario,
-#toggle-exito__usuario:checked ~ #toggle-registro__empresa,
-#toggle-exito__usuario:checked ~ #toggle-registro__usuario {
-    display: none;
-}
-
-#toggle-exito__usuario:checked ~ .cuerpo__menu-exito-usuario {
-    display: flex;
-} */
-
 
 /* footer */
 .pie-pagina{
