@@ -1,4 +1,3 @@
-@import url(coustom_properties.css);
 .campo_form{
     width: var(--ancho-campo_form);
     height: var(--alto-campo_form);

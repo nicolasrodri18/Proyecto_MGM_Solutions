@@ -1,0 +1,20 @@
+.cuerpo__contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    grid-area: cuerpo__contenido;
+}
+
+.cuerpo__productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: var(--ancho_caja-productos);
+    height: var(--alto_caja-productos);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #F8F5F5;
+    border: black 2px solid;
+    overflow-y: auto;
+}

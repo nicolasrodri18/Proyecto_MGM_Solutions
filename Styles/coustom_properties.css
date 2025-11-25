@@ -35,13 +35,13 @@
     --fondo__campo_form: rgb(191, 191, 192);
 
     /* parametros grid-navegacion */
-    --alto_header-navegacion: 150px;
+    --alto_header-navegacion: 120px;
     --alto_footer-navegacion: 200px;
     --alto_main-navegacion: calc(100vh - (var(--alto_footer-navegacion) + var(--alto_header-navegacion)));
 
     /* parametros navbar */
-    --alto_logo--navbar: 100px;
-    --ancho_logo--navbar: 177px;
+    --alto_logo--navbar: 90px;
+    --ancho_logo--navbar: 160px;
     
     /* parametros grid navbar */
     --navbar__perfil: 346px;
@@ -49,4 +49,12 @@
     --navbar__navegacion--links: calc(100% - (var(--navbar__perfil) + var(--navbar__logo)));
     --alto-icon__perfil: 59px;
     --ancho-icon__perfil: 61px;
+
+    /* alto de la grid de productos empresa */
+    --alto--cuerpo__accionar: 84px;
+    --alto--cuerpo__contenido: calc(var(--alto_main-navegacion) - var(--alto--cuerpo__accionar));
+
+    /* alto y ancho caja de productos */
+    --ancho_caja-productos: 1265px;
+    --alto_caja-productos: 524px;
 }

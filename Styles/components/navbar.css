@@ -1,4 +1,3 @@
-@import url(coustom_properties.css);
 @import url(logo-navegacion.css);
 .navbar{
     grid-area: header;

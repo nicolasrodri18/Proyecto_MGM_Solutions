@@ -1,0 +1,16 @@
+.cuerpo__boton--agregar-producto{
+    background-color: #0A7917;
+    color: #B2ED77;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.cuerpo__boton--agregar-producto:hover{
+    background-color: #B2ED77;
+    color: #0A7917;
+    cursor: pointer;
+}

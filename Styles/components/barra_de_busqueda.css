@@ -1,0 +1,28 @@
+.cuerpo__busqueda{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.cuerpo__Barra__busqueda {
+    display: flex;
+}
+
+.cuerpo__input--busqueda{
+    width: 673px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.cuerpo__boton--busqueda{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo__icono--busqueda{
+    width: 25px;
+    height: 25px;
+}

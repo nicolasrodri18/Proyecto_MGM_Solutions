@@ -32,6 +32,15 @@
     "footer footer footer";
 }
 
+.grid-cuerpo__productos--empresa{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: var(--alto--cuerpo__accionar) var(--alto--cuerpo__contenido);
+    grid-template-areas:
+    "cuerpo__accionar"
+    "cuerpo__contenido";
+}
+
 footer{
     display: grid;
     grid-template-columns: var(--anchos_grids) calc(2*var(--anchos_grids)) var(--anchos_grids);
