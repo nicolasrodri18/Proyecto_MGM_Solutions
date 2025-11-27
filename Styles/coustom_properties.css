@@ -57,4 +57,31 @@
     /* alto y ancho caja de productos */
     --ancho_caja-productos: 1265px;
     --alto_caja-productos: 524px;
+
+    /* altos grid contenido listas empresa */
+    --alto--contenido_texto: auto; 
+    --alto--contenido_cards: calc(100% - var(--alto--contenido_texto));
+
+    /* caracteristicas boton acciones */
+    --alto_boton-accion: 31px;
+    --ancho_boton-accion: 92px;
+
+    /* borde radius global de los botones */
+    --border_radius-botones: 50px;
+
+    /* padding boton interacciones */
+    --anchos_boton-interacciones: 32px;
+    --altos_boton-interacciones: 15px;
+
+    /* padding boton seleccionar */
+    --anchos_boton-seleccionar: 25px;
+    --altos_boton-seleccionar: 8px;
+
+    /* medidas inputd busqueda */
+    --ancho--input_busqueda: 673px;
+    --alto--input_busqueda: 50px;
+
+    /* medidas ancho y alto card informacion */
+    --ancho_card-informacion: 1178px;
+    --alto_card-informacion: 68px;
 }

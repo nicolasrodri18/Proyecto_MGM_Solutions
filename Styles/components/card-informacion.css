@@ -1,0 +1,34 @@
+.card__venta{
+  display: flex;
+  background-color: rgb(162, 162, 172);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: var(--ancho_card-informacion);
+  height: var(--alto_card-informacion);
+  border-radius: 25px;
+  margin: 15px;
+  flex-shrink: 0;
+}
+
+.card__textos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.card__venta--texto{
+  display: flex;
+  margin-left: 18px;
+}
+
+.card__venta--texto__propiedad{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card__venta--texto__descripcion{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 5px;
+}

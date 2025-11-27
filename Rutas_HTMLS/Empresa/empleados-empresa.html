@@ -23,6 +23,7 @@
 
         <div class="navbar__navegacion--links">
             <a href="empleados-empresa.html" class="navegacion__links">Empleados</a>
+            <a href="ventas-empresa.html" class="navegacion__links">Ventas</a>
             <a href="Lista-productos-empresa.html" class="navegacion__links">Lista de Precios y Productos</a>
             <a href="inicio-empresa.html" class="navegacion__links">Inicio</a>
         </div>
@@ -30,18 +31,30 @@
             <img src="../../Img/Logo.png" alt="Logo.png" class="encabezado__logo logo__navegacion">
         </div>
     </header>
-    <main class="cuerpo">
-        <h1 class="cuerpo__contenido">
-            Hola Cafeteria Sol, Bienvenid@
-        </h1>
-        <h1 class="cuerpo__contenido">
-            Puedes dirigirte a los menus pertinentes 
-            <br>
-            para realizar tus actividades
-        </h1>
-        <h1 class="cuerpo__contenido">
-            Gracias por preferirnos
-        </h1>
+    <main class="grid-cuerpo__contenidos--empresa">
+        <section class="cuerpo__accionar cuerpo__accionar--conboton">
+            <div class="cuerpo__busqueda">
+                <form class="cuerpo__Barra__busqueda">
+                    <input type="text" 
+                        class="cuerpo__input--busqueda" 
+                        placeholder="Buscar Producto: ID Producto, Nombre, Etc" 
+                        name="search_query">
+                    <button type="submit" class="cuerpo__boton--busqueda">
+                        <img src="../../Img/icon-lupa.png" alt="Buscar" class="cuerpo__icono--busqueda">
+                    </button>
+                </form>
+            </div>
+            <a href="#">
+                <button class="cuerpo__boton--interaccion">
+                    Agregar
+                </button>
+            </a>
+        </section>
+        <section class="cuerpo__contenido">
+            <div class="cuerpo__contenido__cards">
+              <h1 class="cuerpo--texto">Registro de venta</h1>
+            </div>
+        </section>
     </main>
     <footer class="pie-pagina">
         <div class="pie-pagina__contenido-1">

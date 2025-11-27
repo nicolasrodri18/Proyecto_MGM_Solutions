@@ -48,11 +48,11 @@
 .menu-inicio--enlaces--menus{
     font-family: var(--tipo_letra);
     color: #008CFF;
+    margin-top: 10px;
 }
 
 .menu-inicio__enlaces--menus--registro{
     text-decoration: none;
-    color: #008CFF;
 }
 
 /* controladores-checkbox forms menus */

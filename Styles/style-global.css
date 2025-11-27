@@ -32,7 +32,7 @@
     "footer footer footer";
 }
 
-.grid-cuerpo__productos--empresa{
+.grid-cuerpo__contenidos--empresa{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: var(--alto--cuerpo__accionar) var(--alto--cuerpo__contenido);

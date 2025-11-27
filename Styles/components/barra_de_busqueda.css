@@ -10,8 +10,8 @@
 }
 
 .cuerpo__input--busqueda{
-    width: 673px;
-    height: 50px;
+    width: var(--ancho--input_busqueda);
+    height: var(--alto--input_busqueda);
     padding-left: 10px;
 }
 

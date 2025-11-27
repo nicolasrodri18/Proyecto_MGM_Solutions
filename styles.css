@@ -6,4 +6,5 @@
 @import url(Styles/seleccion-rol.css);
 
 @import url(Styles/inicio-empresa.css);
-@import url(Styles/Lista_productos_empresa.css);
+@import url(Styles/components/contenido_empresa.css);
+@import url(Styles/Lista_ventas.css);

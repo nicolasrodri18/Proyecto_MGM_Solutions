@@ -6,7 +6,7 @@
     grid-area: cuerpo__contenido;
 }
 
-.cuerpo__productos{
+.cuerpo__contenido__cards{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
