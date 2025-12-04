@@ -1,5 +1,5 @@
-@import url(components/card-informacion.css);
-@import url(components/boton-accion.css);
+@import url(card-informacion.css);
+@import url(boton-accion.css);
 
 .grid__lista{
   display: grid;
@@ -26,11 +26,5 @@
   margin-top: 10px;
   gap: 10px
 }
-.card__venta--botones{
-  margin-left: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
+
 

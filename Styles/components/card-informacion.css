@@ -1,5 +1,9 @@
-.card__venta{
-  display: flex;
+
+.card__lista{
+  display: grid;
+  grid-template-columns: calc(var(--ancho_card-informacion) - 300px) 300px;
+  grid-template-areas:
+    "textos botones";
   background-color: rgb(162, 162, 172);
   padding-top: 8px;
   padding-bottom: 8px;
@@ -8,27 +12,37 @@
   border-radius: 25px;
   margin: 15px;
   flex-shrink: 0;
-}
-
-.card__textos {
-  display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
-  margin-left: 15px;
 }
 
-.card__venta--texto{
+.card__lista--textos {
+  grid-area: textos;
   display: flex;
-  margin-left: 18px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.card__venta--texto__propiedad{
+.card--texto{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3px;
+}
+
+.card__lista--texto__propiedad{
   font-size: 15px;
   font-weight: bold;
 }
 
-.card__venta--texto__descripcion{
+.card__lista--texto__descripcion{
   font-size: 15px;
   font-weight: lighter;
-  margin-left: 5px;
+}
+
+.card__lista--botones{
+  grid-area: botones;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

@@ -1,4 +1,4 @@
-.card__venta__boton--accion{
+.card__lista__boton--accion{
   height: var(--alto_boton-accion);
   width: var(--ancho_boton-accion);
   border-radius: var(--border_radius-botones);
@@ -7,6 +7,6 @@
   font-size: 15px;
 }
 
-.card__venta__boton--accion:hover{
+.card__lista__boton--accion:hover{
   background-color: #515050;
 }

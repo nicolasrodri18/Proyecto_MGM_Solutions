@@ -6,13 +6,10 @@
 @import url(components/encabezado_pagina_inicio.css);
 /* main */
 .cuerpo{
-    height: var(--alto_main-inicio);
     grid-area: main;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 60px;
 }
 
 .cuerpo__bienvenida--mensaje{
@@ -40,7 +37,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
+    justify-content: center;
+    margin-top: 10px;
     font-family: var(--tipo_letra);
     color: #008CFF;
 }
@@ -48,7 +46,7 @@
 .menu-inicio--enlaces--menus{
     font-family: var(--tipo_letra);
     color: #008CFF;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .menu-inicio__enlaces--menus--registro{

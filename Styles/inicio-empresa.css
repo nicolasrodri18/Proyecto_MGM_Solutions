@@ -5,7 +5,6 @@
 @import url(components/icon-perfil.css);
 
 .cuerpo{
-    height: var(--alto_main-navegacion);
     grid-area: main;
     display: flex;
     align-items: center;
