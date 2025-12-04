@@ -6,10 +6,9 @@
     align-items: center;
     gap: 40px;
     background-color: #C3C1C1;
-    width: 599px;
-    height: 516px;
+    width: var(--ancho_caja_seleccion-rol);
+    height: var(--alto_caja_seleccion-rol);
     border-radius: 119px;
-    margin-bottom: 50px;
 }
 .cuerpo__contenido--texto{
     font-family: var(--tipo_letra);
@@ -23,8 +22,8 @@
     color: black;
     font-family: var;
     background-color: rgb(253, 253, 253);
-    width: 402px;
-    height: 85px;
+    width: var(--ancho_campo-rol);
+    height: var(--alto_campo-rol);
     font-size: 64px;
     border-radius: 42.5px;
 }

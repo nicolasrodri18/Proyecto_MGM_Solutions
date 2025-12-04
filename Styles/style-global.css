@@ -28,11 +28,11 @@
     background-color: var(--fondo_main);
     grid-template-areas:
     "header header header"
-    "main main main"
+    "contenido contenido contenido"
     "footer footer footer";
 }
 
-.grid-cuerpo__contenidos--empresa{
+.grid-cuerpo__contenidos{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: var(--alto--cuerpo__accionar) var(--alto--cuerpo__contenido);

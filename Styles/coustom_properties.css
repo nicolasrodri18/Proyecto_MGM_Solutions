@@ -84,4 +84,24 @@
     /* medidas ancho y alto card informacion */
     --ancho_card-informacion: 1178px;
     --alto_card-informacion: 68px;
+
+    /* medidas linea divisora en menu datos */
+    --medida_linea-divisora: 100%;
+
+    /* medidas grid datos informacion */
+    --alto--datos_texto: 80px;
+    --alto--datos_campos: calc(100% - 80px);
+
+    /* medidas grid cuerpo datos informacion */
+    --alto--cuerpo__titulo: 95px;
+    --alto--cuerpo__contenido: calc(100% - (var(--alto--cuerpo__titulo) + 58px));
+    --alto--cuerpo__vacio: 58px;
+
+    /* medidas caja seleccion de rol */
+    --ancho_caja_seleccion-rol: 599px;
+    --alto_caja_seleccion-rol: 516px;
+
+    /* medidas campo rol */
+    --ancho_campo-rol: 402px;
+    --alto_campo-rol: 85px;
 }
