@@ -7,3 +7,8 @@
 @import url(Styles/components/contenido_empresa.css);
 @import url(Styles/components/Listas.css);
 @import url(Styles/datos-empleado.css);
+@import url(Styles/components/modulos_menu_lista_productos.css);
+@import url(Styles/components/modulo_cerrar_sesion.css);
+@import url(Styles/components/modulo_detalle_registro.css);
+@import url(Styles/components/modulo_anadir_empleado.css);
+@import url(Styles/components/modulo_eliminar.css);

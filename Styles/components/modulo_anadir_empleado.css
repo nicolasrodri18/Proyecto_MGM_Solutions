@@ -1,0 +1,103 @@
+.modulo__overlay--agregar-empleado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modulo__agregar-empleado {
+    background-color: #E8E8E8;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 380px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modulo__agregar-empleado .modulo__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: var(--tipo_letra);
+}
+
+.modulo__agregar-empleado .modulo__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modulo__agregar-empleado .modulo__campo label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.modulo__agregar-empleado .modulo__input {
+    width: 100%;
+    height: 35px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    font-size: 14px;
+    font-family: var(--tipo_letra);
+}
+
+.modulo__agregar-empleado .modulo__input:focus {
+    outline: none;
+    border-color: #0A7917;
+    background-color: #fff;
+}
+
+.modulo__agregar-empleado .modulo__input::placeholder {
+    color: #888;
+}
+
+.modulo__agregar-empleado .modulo__botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.modulo__agregar-empleado .modulo__boton {
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    font-family: var(--tipo_letra);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.modulo__agregar-empleado .modulo__boton--cancelar {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.modulo__agregar-empleado .modulo__boton--cancelar:hover {
+    background-color: #f0f0f0;
+}
+
+.modulo__agregar-empleado .modulo__boton--agregar {
+    background-color: #0A7917;
+    color: #B2ED77;
+}
+
+.modulo__agregar-empleado .modulo__boton--agregar:hover {
+    background-color: #B2ED77;
+    color: #0A7917;
+}
+
+#toggle-modulo-agregar-empleado:checked~.modulo__overlay--agregar-empleado {
+    display: flex;
+}

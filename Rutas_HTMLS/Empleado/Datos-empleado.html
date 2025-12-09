@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGM_SOLUTIONS</title>
     <link rel="stylesheet" href="../../styles.css">
 </head>
+
 <body class="grid-navegacion">
+    <input type="checkbox" id="toggle-modulo-cerrar-sesion" hidden>
+
+    <div class="modulo__overlay--cerrar-sesion">
+        <div class="modulo__cerrar-sesion">
+            <p class="modulo__cerrar-sesion--texto">Cerraras Sesion deseas Continuar?</p>
+            <div class="modulo__cerrar-sesion--botones">
+                <label for="toggle-modulo-cerrar-sesion" class="modulo__boton modulo__boton--cancelar">Cancelar</label>
+                <a href="../Login.html" class="modulo__boton modulo__boton--continuar">Continuar</a>
+            </div>
+        </div>
+    </div>
+
     <header class="navbar">
         <div class="navbar__perfil">
-            <div class="navbar__perfil--usuario"> 
+            <div class="navbar__perfil--usuario">
                 <img src="../../Img/icono-perfil.png" alt="Perfil" class="navbar__perfil--imagen icon-perfil">
                 <h5 class="navbar__perfil--nombre">Hi, Nicolas Rodri</h5>
             </div>
-            
+
             <div class="navbar__desplegable">
-                <a href="../Login.html">
-                    <button class="boton__cerrar-sesion">Cerrar Sesion</button>
-                </a>
+                <label for="toggle-modulo-cerrar-sesion" class="boton__cerrar-sesion">Cerrar Sesion</label>
             </div>
         </div>
 
@@ -99,12 +111,12 @@
                 Llevamos el control de tu productos
                 <br>
                 - Almacenamiento
-                <br> 
+                <br>
                 - Costes
-                <br> 
+                <br>
                 - Balances
-                <br> 
-                - Ventas 
+                <br>
+                - Ventas
                 <br>
                 - Finanzas
             </h5>
@@ -143,4 +155,5 @@
         </div>
     </footer>
 </body>
+
 </html>

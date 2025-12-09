@@ -12,7 +12,8 @@
 }
 
 .cuerpo__accionar--conboton{
-  margin-left: 200px;
+  margin-left: 100px;
+  gap: 100px;
 }
 .cuerpo__accionar > a{
     margin-left: 40px;

@@ -1,0 +1,66 @@
+/* ===============================================
+   MODAL DETALLE REGISTRO (VENTAS)
+   =============================================== */
+
+.modulo__overlay--detalle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modulo__detalle-registro {
+    background-color: #333;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modulo__detalle-registro--texto {
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--tipo_letra);
+    margin: 0;
+}
+
+.modulo__detalle-registro--texto strong {
+    font-weight: bold;
+}
+
+.modulo__detalle-registro--botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.modulo__boton--cerrar {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--tipo_letra);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.modulo__boton--cerrar:hover {
+    background-color: #f0f0f0;
+}
+
+#toggle-modulo-detalle:checked~.modulo__overlay--detalle {
+    display: flex;
+}
