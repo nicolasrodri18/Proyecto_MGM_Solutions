@@ -1,4 +1,4 @@
-.cuerpo__contenido{
+.cuerpo__contenido {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -6,15 +6,15 @@
     grid-area: cuerpo__contenido;
 }
 
-.cuerpo__contenido__cards{
+.cuerpo__contenido__cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:center;
     width: var(--ancho_caja-productos);
     height: var(--alto_caja-productos);
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    background-color: #F8F5F5;
-    border: black 2px solid;
-    overflow-y: auto;
+    border-top-left-radius: var(--border_radius-botones);
+    border-bottom-left-radius: var(--border_radius-botones);
+    background-color: var(--color_fondo-productos);
+    border: var(--fondo_boton) 2px solid;
+    overflow-y: scroll;
 }

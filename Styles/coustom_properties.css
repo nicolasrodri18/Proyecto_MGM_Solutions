@@ -1,5 +1,5 @@
-:root{
-    --fondo_main:#ffffff;
+:root {
+    --fondo_main: #ffffff;
 
     /* parametros grid-inicio */
     --alto_header-inicio: 200px;
@@ -42,7 +42,7 @@
     /* parametros navbar */
     --alto_logo--navbar: 90px;
     --ancho_logo--navbar: 160px;
-    
+
     /* parametros grid navbar */
     --navbar__perfil: 346px;
     --navbar__logo: 318px;
@@ -59,7 +59,7 @@
     --alto_caja-productos: 524px;
 
     /* altos grid contenido listas empresa */
-    --alto--contenido_texto: auto; 
+    --alto--contenido_texto: auto;
     --alto--contenido_cards: calc(100% - var(--alto--contenido_texto));
 
     /* caracteristicas boton acciones */
@@ -104,4 +104,144 @@
     /* medidas campo rol */
     --ancho_campo-rol: 402px;
     --alto_campo-rol: 85px;
+
+    /* COLORES GENERALES */
+    --color_primario: #0A7917;
+    /* Verde principal */
+    --color_primario-claro: #B2ED77;
+    /* Verde claro */
+    --color_secundario: #3976FB;
+    /* Azul enlaces navbar */
+    --color_error: #ff0000;
+    /* Rojo para errores/eliminar */
+    --color_error-hover: #ff4444;
+    /* Rojo hover */
+    --color_enlace: #008CFF;
+    /* Azul enlaces login */
+    --color_negro: #000000;
+    --color_blanco: #ffffff;
+
+    /* GRISES Y NEUTROS */
+    --color_gris-claro: #f5f5f5;
+    --color_gris-medio: #c2c1c1;
+    --color_gris-oscuro: #333;
+    --color_gris-borde: #ccc;
+    --color_gris-borde-alt: #c2c0c0;
+    --color_gris-borde-desplegable: #a5a4a4;
+    --color_gris-placeholder: #888;
+    --color_gris-hover: #f0f0f0;
+    --color_fondo-modal: #E8E8E8;
+    --color_fondo-input: #D9D9D9;
+    --color_fondo-card: #D7D2D2;
+    --color_fondo-card-lista: rgb(162, 162, 172);
+    --color_fondo-productos: #F8F5F5;
+    --color_navbar-hover: #f0eeee;
+    --color_hover-gris: #aaaaaa;
+    --color_boton-accion-hover: #515050;
+    --color_cantidad-fondo: #555;
+    --color_cantidad-hover: #777;
+    --color_cerrar-sesion-hover: #b9b9b9;
+
+    /* OVERLAYS Y SOMBRAS */
+    --overlay_oscuro: rgba(0, 0, 0, 0.5);
+    --overlay_claro: rgba(0, 0, 0, 0.3);
+    --overlay_transparente: rgba(0, 0, 0, 0.2);
+    --sombra_pequena: 0 4px 10px rgba(0, 0, 0, 0.2);
+    --sombra_pequena-alt: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    --sombra_media: 0 10px 30px rgba(0, 0, 0, 0.3);
+    --sombra_grande: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+    /* MODALES */
+    --ancho_modal-pequeno: 350px;
+    --ancho_modal-medio: 380px;
+    --ancho_modal-grande: 400px;
+    --ancho_modal-seleccionar: 420px;
+    --ancho_modal-desplegable: 247px;
+    --padding_modal-horizontal: 40px;
+    --padding_modal-vertical: 30px;
+
+    /* BORDER RADIUS */
+    --radius_pequeno: 5px;
+    --radius_medio: 8px;
+    --radius_modal: 15px;
+    --radius_card: 25px;
+    --radius_campo-rol: 42.5px;
+    --radius_caja-seleccion: 119px;
+
+    /* TAMAÑOS DE FUENTE */
+    --font_xs: 10px;
+    --font_sm: 14px;
+    --font_base: 15px;
+    --font_md: 16px;
+    --font_lg: 18px;
+    --font_xl: 20px;
+    --font_2xl: 25px;
+    --font_3xl: 32px;
+    --font_4xl: 64px;
+    --font_5xl: 96px;
+
+    /* GAPS Y ESPACIADOS */
+    --gap_xs: 3px;
+    --gap_sm: 5px;
+    --gap_md: 10px;
+    --gap_lg: 15px;
+    --gap_xl: 20px;
+    --gap_2xl: 40px;
+    --gap_3xl: 60px;
+    --gap_4xl: 100px;
+
+    /* PADDINGS COMUNES*/
+    --padding_xs: 2px;
+    --padding_sm: 5px;
+    --padding_md: 10px;
+    --padding_lg: 15px;
+    --padding_boton-vertical: 12px;
+    --padding_boton-horizontal: 30px;
+    --padding_input-horizontal: 12px;
+    --padding_input-vertical: 8px;
+
+    /* MARGINS COMUNES*/
+    --margin_xs: 2px;
+    --margin_sm: 5px;
+    --margin_md: 10px;
+    --margin_lg: 15px;
+    --margin_xl: 20px;
+    --margin_2xl: 15px;
+    --margin_3xl: 40px;
+    --margin_texto_contenido_card: 10px;
+
+    /* Z-INDEX */
+    --z-index_dropdown: 1000;
+    --z-index_dropdown-trigger: 1001;
+    --z-index_modal: 2000;
+    --z-index_modal-alto: 3000;
+
+    /* TRANSICIONES */
+    --transicion_rapida: 0.3s;
+    --transicion_estandar: all 0.3s ease;
+    --transicion_opacidad: opacity 0.3s ease, visibility 0.3s ease;
+
+    /* TARJETAS DE PRODUCTO */
+    --ancho_card-producto: 265px;
+    --alto_card-producto: 223px;
+
+    /* CUERPO DATOS */
+    --ancho_cuerpo-datos: 1119px;
+    --alto_cuerpo-datos: 540px;
+
+    /* TAMAÑOS DE BOTONES */
+    --ancho_boton-cerrar-sesion: 159px;
+    --alto_boton-cantidad: 30px;
+    --ancho_boton-cantidad: 30px;
+    --ancho_input-cantidad: 50px;
+    --alto_input: 35px;
+
+    /* TAMAÑOS BARRA BUSQUEDA */
+    --alto_boton-busqueda: 50px;
+    --ancho_boton-busqueda: 50px;
+    --alto_icono-busqueda: 25px;
+    --ancho_icono-busqueda: 25px;
+
+    /* TAMAÑOS DE CAMPO */
+    --alto_campo-texto: 30px;
 }

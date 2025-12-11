@@ -1,112 +1,119 @@
 @import url(logo-navegacion.css);
-.navbar{
+
+.navbar {
     grid-area: header;
     height: var(--alto_header-navegacion);
     display: grid;
     grid-template-columns: var(--navbar__perfil) var(--navbar__navegacion--links) var(--navbar__logo);
     align-items: center;
     justify-content: center;
-    background-color: #c2c1c1;
+    background-color: var(--color_gris-medio);
     grid-template-areas: "perfil navegacion logo";
 }
 
 .navbar__perfil {
     grid-area: perfil;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     cursor: pointer;
 }
-.navbar__perfil--usuario { 
+
+.navbar__perfil--usuario {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border: 1px solid #c2c0c0;
+    gap: var(--gap_md);
+    padding: var(--padding_md);
+    border: 1px solid var(--color_gris-borde-alt);
     border-bottom: none;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: var(--radius_medio);
+    border-top-right-radius: var(--radius_medio);
     background-color: none;
-    z-index: 1001;
+    z-index: var(--z-index_dropdown-trigger);
 }
+
 .navbar__desplegable {
-    position: absolute; 
+    position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 1000;
-    background-color: none; 
-    border: 1px solid #a5a4a4;
+    transition: var(--transicion_opacidad);
+    z-index: var(--z-index_dropdown);
+    background-color: none;
+    border: 1px solid var(--color_gris-borde-desplegable);
     border-top: none;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: var(--radius_medio);
+    border-bottom-right-radius: var(--radius_medio);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    padding: 10px; 
-    width: 247px;
+    padding: var(--padding_md);
+    width: var(--ancho_modal-desplegable);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.navbar__perfil--nombre{
-    font-size: 20px;
+
+.navbar__perfil--nombre {
+    font-size: var(--font_xl);
     font-family: var(--tipo_letra);
 }
+
 .navbar__perfil:hover .navbar__desplegable {
     opacity: 1;
     visibility: visible;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: var(--sombra_pequena);
 }
+
 .navbar__perfil:hover .navbar__perfil--usuario {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2); 
+    box-shadow: var(--sombra_pequena);
+    box-shadow: var(--sombra_pequena-alt);
 }
 
 .boton__cerrar-sesion {
-    background-color: #f5f5f5; 
-    color: #000000; 
+    background-color: var(--color_gris-claro);
+    color: var(--color_negro);
     border: none;
-    padding: 10px 15px;
-    border-radius: 25px;
-    width: 159px; 
+    padding: var(--padding_md) var(--padding_lg);
+    border-radius: var(--radius_card);
+    width: var(--ancho_boton-cerrar-sesion);
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--font_md);
     text-align: center;
     font-weight: 500;
-    margin-top: 5px; 
+    margin-top: var(--margin_sm);
 }
 
 .boton__cerrar-sesion:hover {
-    background-color: #b9b9b9;
-    color: #ff0000; 
+    background-color: var(--color_cerrar-sesion-hover);
+    color: var(--color_error);
 }
 
-.navbar__navegacion--links{
+.navbar__navegacion--links {
     grid-area: navegacion;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.navegacion__links{
+.navegacion__links {
     font-size: var(--tipo_letra);
-    font-size: 20px;
+    font-size: var(--font_xl);
     text-decoration: none;
-    color: black;
+    color: var(--fondo_boton);
     padding: 18px;
-    border-radius: 25px;
+    border-radius: var(--radius_card);
 }
 
-.navegacion__links:hover{
-    background-color: #f0eeee;
-    color: #3976FB;
+.navegacion__links:hover {
+    background-color: var(--color_navbar-hover);
+    color: var(--color_secundario);
 }
-.navbar__logo{
+
+.navbar__logo {
     grid-area: logo;
     display: flex;
     justify-content: center;

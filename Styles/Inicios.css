@@ -8,27 +8,28 @@
 @import url(components/logo-navegacion.css);
 @import url(components/icon-perfil.css);
 
-.contenido__menu--inicio{
+.contenido__menu--inicio {
     grid-area: contenido;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: var(--gap_3xl);
 }
 
-.cuerpo__contenido{
+.cuerpo__contenido {
     text-align: center;
     font-family: var(--tipo_letra);
     font-weight: var(--estilo_letra);
-    font-size: 32px;
+    font-size: var(--font_3xl);
     font-weight: bold;
 }
-.grid-cuerpo__contenidos{
+
+.grid-cuerpo__contenidos {
     grid-area: contenido;
     text-align: center;
     font-family: var(--tipo_letra);
     font-weight: var(--estilo_letra);
-    font-size: 32px;
+    font-size: var(--font_3xl);
     font-weight: bold;
 }

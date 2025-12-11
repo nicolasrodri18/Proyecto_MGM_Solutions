@@ -2,9 +2,9 @@
   height: var(--alto_boton-accion);
   width: var(--ancho_boton-accion);
   border-radius: var(--border_radius-botones);
-  background-color: #000000;
-  color: white;
-  font-size: 15px;
+  background-color: var(--color_negro);
+  color: var(--textos_contenidos);
+  font-size: var(--font_base);
   border: none;
   cursor: pointer;
   display: inline-flex;
@@ -15,5 +15,5 @@
 }
 
 .card__lista__boton--accion:hover {
-  background-color: #515050;
+  background-color: var(--color_boton-accion-hover);
 }

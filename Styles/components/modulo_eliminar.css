@@ -8,27 +8,27 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--overlay_oscuro);
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 2000;
+    z-index: var(--z-index_modal);
 }
 
 .modulo__eliminar {
-    background-color: #E8E8E8;
-    border-radius: 15px;
-    padding: 30px 40px;
-    width: 350px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background-color: var(--color_fondo-modal);
+    border-radius: var(--radius_modal);
+    padding: var(--padding_modal-vertical) var(--padding_modal-horizontal);
+    width: var(--ancho_modal-pequeno);
+    box-shadow: var(--sombra_media);
     text-align: center;
 }
 
 .modulo__eliminar--texto {
-    font-size: 18px;
+    font-size: var(--font_lg);
     font-weight: 500;
-    color: #333;
-    margin-bottom: 25px;
+    color: var(--color_gris-oscuro);
+    margin-bottom: var(--margin_2xl);
     font-family: var(--tipo_letra);
     line-height: 1.4;
 }
@@ -36,39 +36,39 @@
 .modulo__eliminar--botones {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: var(--gap_xl);
 }
 
 .modulo__eliminar .modulo__boton {
-    padding: 12px 30px;
-    border-radius: 50px;
-    font-size: 16px;
+    padding: var(--padding_boton-vertical) var(--padding_boton-horizontal);
+    border-radius: var(--border_radius-botones);
+    font-size: var(--font_md);
     font-weight: 500;
     cursor: pointer;
     font-family: var(--tipo_letra);
-    transition: all 0.3s ease;
+    transition: var(--transicion_estandar);
     text-align: center;
 }
 
 .modulo__eliminar .modulo__boton--cancelar {
-    background-color: #fff;
-    color: #333;
-    border: 2px solid #333;
+    background-color: var(--color_blanco);
+    color: var(--color_gris-oscuro);
+    border: 2px solid var(--color_gris-oscuro);
 }
 
 .modulo__eliminar .modulo__boton--cancelar:hover {
-    background-color: #f0f0f0;
+    background-color: var(--color_gris-hover);
 }
 
 .modulo__eliminar .modulo__boton--confirmar {
-    background-color: #fff;
-    color: #ff0000;
-    border: 2px solid #ff0000;
+    background-color: var(--color_blanco);
+    color: var(--color_error);
+    border: 2px solid var(--color_error);
 }
 
 .modulo__eliminar .modulo__boton--confirmar:hover {
-    background-color: #ff0000;
-    color: #fff;
+    background-color: var(--color_error);
+    color: var(--color_blanco);
 }
 
 #toggle-modulo-eliminar:checked~.modulo__overlay--eliminar {

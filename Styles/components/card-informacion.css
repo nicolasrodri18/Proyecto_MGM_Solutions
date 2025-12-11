@@ -1,16 +1,15 @@
-
-.card__lista{
+.card__lista {
   display: grid;
-  grid-template-columns: calc(var(--ancho_card-informacion) - 300px) 300px;
+  grid-template-columns: calc(var(--ancho_card-informacion) - 200px) 200px;
   grid-template-areas:
     "textos botones";
-  background-color: rgb(162, 162, 172);
-  padding-top: 8px;
-  padding-bottom: 8px;
+  background-color: var(--color_fondo-card-lista);
+  padding-top: var(--radius_medio);
+  padding-bottom: var(--radius_medio);
   width: var(--ancho_card-informacion);
   height: var(--alto_card-informacion);
-  border-radius: 25px;
-  margin: 15px;
+  border-radius: var(--radius_card);
+  margin: var(--margin_lg);
   flex-shrink: 0;
   flex-wrap: nowrap;
   align-items: center;
@@ -23,24 +22,24 @@
   align-items: center;
 }
 
-.card--texto{
+.card--texto {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3px;
+  gap: var(--gap_xs);
 }
 
-.card__lista--texto__propiedad{
-  font-size: 15px;
+.card__lista--texto__propiedad {
+  font-size: var(--font_base);
   font-weight: bold;
 }
 
-.card__lista--texto__descripcion{
-  font-size: 15px;
+.card__lista--texto__descripcion {
+  font-size: var(--font_base);
   font-weight: lighter;
 }
 
-.card__lista--botones{
+.card__lista--botones {
   grid-area: botones;
   display: flex;
   justify-content: space-evenly;
