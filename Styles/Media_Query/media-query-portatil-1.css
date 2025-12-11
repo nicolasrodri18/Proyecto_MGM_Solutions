@@ -14,7 +14,7 @@
         --ancho_caja-productos: 1065px;
         --alto_caja-productos: 424px;
 
-        /* medidas cards productos */ 
+        /* medidas cards productos */
         --ancho_card-producto: 230px;
         --alto_card-producto: 190px;
         --font_base: 13px;
@@ -32,8 +32,9 @@
         /* tamaño letra pie de pagina */
         --textos_footer: 12px;
     }
+
     .card__lista {
-        grid-template-columns: calc(var(--ancho_card-informacion) - 250px) 250px; 
+        grid-template-columns: calc(var(--ancho_card-informacion) - 250px) 250px;
     }
 
     .cuerpo__datos {
@@ -142,4 +143,21 @@
     .contenido__menu--inicio {
         gap: 35px;
     }
+
+    /* corrección layout inicio portatil */
+    .grid-inicio .encabezado {
+        grid-area: header;
+        width: 100%;
+    }
+
+    .grid-inicio .cuerpo {
+        grid-area: main;
+        width: 100%;
+    }
+
+    .grid-inicio .pie-pagina {
+        grid-area: footer;
+        width: 100%;
+    }
+
 }

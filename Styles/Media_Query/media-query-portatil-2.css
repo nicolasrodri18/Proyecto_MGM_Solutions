@@ -275,6 +275,23 @@
         height: 100px;
         width: 150px;
     }
+
+    /* corrección layout inicio portatil-2 */
+    .grid-inicio .encabezado {
+        grid-area: header;
+        width: 100%;
+    }
+
+    .grid-inicio .cuerpo {
+        grid-area: main;
+        width: 100%;
+    }
+
+    .grid-inicio .pie-pagina {
+        grid-area: footer;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 955px) {

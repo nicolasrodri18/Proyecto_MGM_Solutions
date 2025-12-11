@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 720px) {
 
     /* RESET PARA ELIMINAR ESPACIO LATERAL */
     html,
@@ -14,7 +14,7 @@
         box-sizing: border-box;
     }
 
-    /* VARIABLES GENERALES - Para tablets (no afectan header/footer de páginas de inicio) */
+    /* VARIABLES GENERALES - Para tablets */
     :root {
         /* Modales - reducidos para tablet */
         --ancho_modal-medio: 280px;
@@ -28,7 +28,7 @@
         --alto_cuerpo-datos: 350px;
 
         /* medidas contenedor listas */
-        --ancho_caja-productos: 98%;
+        --ancho_caja-productos: 90%;
         /* alto sin cambiar - mantiene el original */
 
         /* medidas cards productos - grid de 2 columnas */
@@ -39,7 +39,6 @@
 
         /* medidas cards informacion */
         --ancho_card-informacion: 98%;
-        --alto_card-informacion: auto;
         --margin_lg: 4px;
 
         /* gaps */
@@ -72,19 +71,58 @@
 
     /* ==================== VARIABLES PARA PÁGINAS DE INICIO (645px de alto) ==================== */
     .grid-inicio {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: var(--alto_header-inicio) var(--alto_main-inicio) var(--alto_footer-inicio);
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
         /* Mantener alturas originales proporcionales para 645px */
         --alto_header-inicio: 100px;
         --alto_footer-inicio: 200px;
         --alto_main-inicio: calc(100vh - (var(--alto_footer-inicio) + var(--alto_header-inicio)));
     }
 
-    /* Estilos para páginas de inicio (index, login, registro, seleccion-rol) */
+    /* Forzar asignación de áreas y anchos completos en tablet */
     .grid-inicio .encabezado {
-        height: var(--alto_header-inicio);
+        grid-area: header;
+        width: 100%;
+    }
+
+    /* Main de página de inicio */
+    .grid-inicio .cuerpo {
+        grid-area: main;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .grid-inicio .pie-pagina {
-        height: var(--alto_footer-inicio);
+        grid-area: footer;
+        width: 100%;
+    }
+
+    /* Título h1 de la página de inicio */
+    .grid-inicio .cuerpo__contenido {
+        width: 100%;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 1.4;
+        padding: 0 10px;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        text-align: center;
     }
 
     .grid-inicio .encabezado__logo {
@@ -219,7 +257,7 @@
     }
 
     .cuerpo__contenido__cards {
-        width: 100%;
+        width: 95%;
         max-width: 100%;
         padding: 10px;
         margin: 0 auto;
