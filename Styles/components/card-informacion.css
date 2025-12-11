@@ -1,6 +1,6 @@
 .card__lista {
   display: grid;
-  grid-template-columns: calc(var(--ancho_card-informacion) - 200px) 200px;
+  grid-template-columns: calc(var(--ancho_card-informacion) - 300px) 300px;
   grid-template-areas:
     "textos botones";
   background-color: var(--color_fondo-card-lista);
@@ -40,6 +40,7 @@
 }
 
 .card__lista--botones {
+  width: 100%;
   grid-area: botones;
   display: flex;
   justify-content: space-evenly;

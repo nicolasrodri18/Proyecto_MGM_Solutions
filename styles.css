@@ -14,5 +14,6 @@
 @import url(Styles/components/modulo_eliminar.css);
 
 /* Media Queries */
-@import url(Styles/media-query-portatil-1.css);
-@import url(Styles/media-query-portatil-2.css);
+@import url(Styles/Media_Query/media-query-portatil-1.css);
+@import url(Styles/Media_Query/media-query-portatil-2.css);
+@import url(Styles/Media_Query/media-query-tablet.css);

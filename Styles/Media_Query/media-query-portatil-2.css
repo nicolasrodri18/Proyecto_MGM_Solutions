@@ -22,18 +22,17 @@
         --alto_cuerpo-datos: 400px;
 
         /* medidas contenedor listas - reducido para portatil-2 */
-        --ancho_caja-productos: 850px;
+        --ancho_caja-productos: 95%;
         --alto_caja-productos: 380px;
 
         /* medidas cards productos - más compactas para portatil-2 */
         --ancho_card-producto: 190px;
         --alto_card-producto: 170px;
-        --font_base: 11px;
+        --font_base: 12px;
         --margin_texto_contenido_card: 5px;
-        --margin_2xl: 8px;
 
         /* medidas cards informacion - ajustadas para portatil-2 */
-        --ancho_card-informacion: 98%;
+        --ancho_card-informacion: 95%;
         --alto_card-informacion: 55px;
         --margin_lg: 5px;
 
@@ -81,7 +80,12 @@
         --ancho-campo_form: 280px;
         --alto-campo_form: 30px;
     }
-    .cuerpo__contenido__cards{
+
+    .card__lista {
+        grid-template-columns: calc(var(--ancho_card-informacion) - 200px) 200px;
+    }
+
+    .cuerpo__contenido__cards {
         justify-content: space-evenly;
     }
 
@@ -125,13 +129,18 @@
     /* CARDS DE LISTA */
     .card__lista--texto__propiedad,
     .card__lista--texto__descripcion {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .card__lista__boton--accion {
         font-size: 10px;
         width: var(--ancho_boton-accion);
         height: var(--alto_boton-accion);
+    }
+
+    /* OCULTAR 4to CAMPO (Correo) en pantallas pequeñas para evitar superposición */
+    .card__lista--textos .card--texto:nth-child(4) {
+        display: none;
     }
 
     /* MODALES */
@@ -174,7 +183,7 @@
 
     .modulo__eliminar--texto,
     .modulo__cerrar-sesion--texto {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /* PÁGINAS INICIO / LOGIN */
@@ -265,5 +274,11 @@
     .encabezado__Logo {
         height: 100px;
         width: 150px;
+    }
+}
+
+@media (max-width: 955px) {
+    :root {
+        --textos_footer: 8px;
     }
 }

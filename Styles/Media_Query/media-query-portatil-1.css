@@ -32,6 +32,9 @@
         /* tamaño letra pie de pagina */
         --textos_footer: 12px;
     }
+    .card__lista {
+        grid-template-columns: calc(var(--ancho_card-informacion) - 250px) 250px; 
+    }
 
     .cuerpo__datos {
         width: var(--ancho_cuerpo-datos);
